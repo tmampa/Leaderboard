@@ -25,7 +25,7 @@ const displayScores = () => {
     listItem.className = 'list-item';
     board.appendChild(listItem);
   });
-}
+};
 
 window.addEventListener('load', () => {
   displayScores();
