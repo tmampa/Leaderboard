@@ -15,7 +15,7 @@ const myScores = [{
   score: 100,
 }];
 
-function displayScores() {
+const displayScores = () => {
   board.innerHTML = '';
   myScores.forEach((myScore) => {
     const content = `${myScore.name}: ${myScore.score}`;
