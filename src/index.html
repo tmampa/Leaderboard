@@ -6,25 +6,29 @@
     <title>Leaderboard</title>
 </head>
 <body>
-    <h1>Leaderboard</h1>
-    <section>
-      <div class="recent-scores">
-        <div class="title">
-          <h2>Recent Scores</h2>
-          <button type="button" id="refresh" name="Refresh">Refresh</button>
-        </div>
-        <ul class="boardlist">
-
-        </ul>
-      </div>
-      <div class="add-scores">
-        <h2>Add your score</h2>
-        <form name="add-score" id="score-form" class="">
-          <input type="text" id="name" placeholder="Your name" class="input-value" required>
-          <input type="number" id="score" placeholder="Your score" class="input-value" required>
-          <input type="submit" id="submit" name="submit" value="Submit" class="input-button">
-        </form>
-      </div>
-    </section>
+    <main>
+        <h1>Leaderboard</h1>
+        <section class="flex main">
+            <article class="card">
+                <div class="flex scores">
+                    <h2>Recent scores</h2>
+                    <span>
+                        <button id="refreshBtn">Refresh</button>
+                    </span>
+                </div>
+                <ul id="board"></ul>
+            </article>
+            <article class="card" id="formCon">
+                <h2>Add your score</h2>
+                <form class="flex" id="form">
+                    <input type="text" placeholder="Your name" class="input" id="inputName" required>
+                    <input type="number" placeholder="Your score" class="input" id="inputScore" required>
+                    <div class="flex submit">
+                        <button type="submit" id="submitBtn">Submit</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
