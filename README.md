@@ -1,45 +1,82 @@
 # Leaderboard
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved with the external Leaderboard API service.
 
-![screenshot](./images/Leaderboard.png)
+> In this Project I have created a leaderboard where I am learning how to link a website with an API 
+
+
+![Leaderboard](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png)
 
 ## Built With
 
 - HTML
 - CSS
-- JavaScript(ES6)
+- JavaScript
 - Webpack
 
-## Live demo
+## LiveLink
 
-[Live demo link]()
+- Coming soon
 
 ## Getting Started
+To get a local copy up and running, follow the steps in Setup below.
 
-### To get a local copy run the following steps:
+### Prerequisites
+Basic knowledge of HTML, CSS, and JavaScript.
 
-- Copy this link `https://github.com/tmampa/Leaderboard.git`
-- Open your terminal or command line
-- Run `git clone` and paste the link
-- Open the folder with your code editor
-- Create a branch to work on
-- Run `npm install`
-- Run `npm run build`
-- Run `npm run start` to launch the server.
+### Setup
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+[Download the ZIP from this location](https://github.com/tmampa/Leaderboard.git), or run the following [git](https://github.com/tmampa/Leaderboard.git) command to clone the files to your machine:
+```bash
+git clone https://github.com/benjp009/Leaderboard.git
+```
 
-## Author
+- Once the files are on your machine, open the _Leaderboard_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
-👤 **Tshephang Mampa**
+## 🛠 Installation & Set Up
 
-- GitHub: [@tmampa](https://github.com/tmampa)
-- Twitter: [@Tshephang_](https://twitter.com/tshephang_)
-- LinkedIn: [Tshephang Mampa](https://www.linkedin.com/in/tshephangmampa/)
+1. Install Node Modules
+
+   ```sh
+   npm install
+   ```
+
+2. Start the development server
+
+   ```sh
+   npm start
+   ```
+
+3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
+   ```
+
+### Install
+
+The following tools help make easier to work with sample code.
+
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [NVM](https://github.com/nvm-sh/nvm)
+
+
+## Authors
+
+👤 **Tshephang Mampa** 
+
+- GitHub: [tmampa](https://github.com/tmampa)
+- LinkedIn: [Tshephang Mampa](https://linkedin.com/tshephangmampa)
+- Twitter: [Tshephangm_](https://twitter.com/tshephangm_)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tmampa/Leaderboard/issues).
 
 ## Show your support
 
@@ -47,4 +84,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Learning partners, Standup and morning session team
+- Thank you for Microverse for providing the required materials
+
+## 📝 License

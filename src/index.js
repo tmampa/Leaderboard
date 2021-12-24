@@ -1,32 +1,20 @@
 import './style.css';
+import getScores from './getScores.js';
+import sendScores from './sendScores.js';
+import displayScores from './displayScores.js';
 
-const board = document.getElementById('board');
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3qxAA7wy5DPzg65q4nWs/scores/';
 
-const myScores = [{
-  name: 'Sean',
-  score: 100,
-},
-{
-  name: 'Dave',
-  score: 100,
-},
-{
-  name: 'Tshephang',
-  score: 100,
-}];
+const refreshBtn = document.getElementById('refreshBtn');
+const form = document.getElementById('form');
 
-const displayScores = () => {
-  board.innerHTML = '';
-  myScores.forEach((myScore) => {
-    const content = `${myScore.name}: ${myScore.score}`;
-
-    const listItem = document.createElement('li');
-    listItem.innerText = content;
-    listItem.className = 'list-item';
-    board.appendChild(listItem);
-  });
-};
-
-window.addEventListener('load', () => {
-  displayScores();
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  sendScores(url);
 });
+
+refreshBtn.addEventListener('click', () => {
+  getScores(url).then((data) => { displayScores(data.result); });
+});
+
+window.onload = getScores(url).then((data) => { displayScores(data.result); });
