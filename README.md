@@ -3,7 +3,7 @@
 > In this Project I have created a leaderboard where I am learning how to link a website with an API 
 
 
-![Leaderboard](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png)
+![Leaderboard](./images/Leaderboard.png)
 
 ## Built With
 
@@ -14,7 +14,7 @@
 
 ## LiveLink
 
-- Coming soon
+- [Live demo here](https://tmampa.github.io/Leaderboard/dist)
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
