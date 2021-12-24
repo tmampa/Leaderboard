@@ -12,6 +12,10 @@
 - JavaScript
 - Webpack
 
+## LiveLink
+
+- Coming soon
+
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
 
@@ -80,7 +84,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Great team work on the project in Pair Programming
 - Thank you for Microverse for providing the required materials
 
 ## 📝 License
