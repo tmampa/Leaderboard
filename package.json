@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZeenatLawal/Leaderboard.git"
+    "url": "git+https://github.com/tmampa/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZeenatLawal/Leaderboard/issues"
+    "url": "https://github.com/tmampa/Leaderboard/issues"
   },
-  "homepage": "https://github.com/ZeenatLawal/Leaderboard#readme",
+  "homepage": "https://github.com/tmampa/Leaderboard#readme",
   "devDependencies": {
     "css-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
