@@ -3,7 +3,7 @@
 > In this Project I have created a leaderboard where I am learning how to link a website with an API 
 
 
-![Leaderboard](https://i.ibb.co/6g13m61/Screenshot-2.png)
+![Leaderboard](./images/Leaderboard.png)
 
 ## Built With
 
