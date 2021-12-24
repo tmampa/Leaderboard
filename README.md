@@ -62,9 +62,11 @@ The following tools help make easier to work with sample code.
 
 ## Authors
 
-👤 **Benjamin** 
+👤 **Tshephang Mampa** 
 
-- GitHub: [@benjp009](https://github.com/tmampa)
+- GitHub: [tmampa](https://github.com/tmampa)
+- LinkedIn: [Tshephang Mampa](https://linkedin.com/tshephangmampa)
+- Twitter: [Tshephangm_](https://twitter.com/tshephangm_)
 
 
 ## 🤝 Contributing
