@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjp009/Leaderboard.git"
+    "url": "git+https://github.com/tmampa/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/benjp009/Leaderboard/issues"
+    "url": "https://github.com/tmampa/Leaderboard/issues"
   },
-  "homepage": "https://github.com/benjp009/Leaderboard#readme",
+  "homepage": "https://github.com/tmampa/Leaderboard#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
